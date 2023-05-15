@@ -1,5 +1,5 @@
 # PyAuth-Secure
-A secure and simple CLI interface for user registration and authentication using SQLite and Bcrypt written in Python.
+A secure and simple CLI-based user registration and authentication system using SQLite and Bcrypt written in Python.
 
 A simple command-line interface for user registration and login using SQLite database and bcrypt library for password hashing and verification. The code creates a 'users' table in a SQLite database, where new user information is stored after passing the validation checks. The validation checks include username and password criteria, such as:
   - only allowing alphanumeric characters in the username
